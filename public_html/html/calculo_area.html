@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Cálculo da área</title>
+        <script>
+            function calculaAreaRetangulo(){
+                var base = parseFloat(prompt("Informe o valor da base"));
+                var altura = parseFloat(prompt("Informe o valor da altura"));
+
+                var area = base * altura;
+                var perimetro = base + base + altura + altura;
+
+                alert("Área: "+area+" - Perimetro: "+perimetro);
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="calculaAreaRetangulo()">
+            Calcular Área do Retângulo</button>
+
+    </body>
+</html>
